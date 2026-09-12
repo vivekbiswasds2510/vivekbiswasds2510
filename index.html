@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>vivek@journey: zero to data scientist</title>
+<meta name="description" content="A running dashboard documenting a 10-month, self-directed journey from zero coding and finance knowledge to Data Scientist specializing in Quantitative Trading.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <span class="who"><strong>vivek@journey</strong>:~$</span>
+    <nav>
+      <a href="#journal">journal.log</a>
+      <a href="#projects">projects/</a>
+      <a href="#notes">notes/</a>
+      <a href="#roadmap">roadmap.md</a>
+    </nav>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <div class="grid">
+    <div class="panel hero-panel span-8">
+      <p class="prompt">$ whoami<span class="cursor"></span></p>
+      <h1>Zero to Data Scientist for Quant Trading.</h1>
+      <p class="deck">No prior coding or finance background. Fifteen hours a week, four phases, ten months. This dashboard is the running record, real projects, real market data, real mistakes, updated as the work happens.</p>
+    </div>
+    <div class="panel span-4">
+      <p class="panel-label">status</p>
+      <div class="status-row"><span class="k">journal entries</span><span class="v">005</span></div>
+      <div class="status-row"><span class="k">hours / week</span><span class="v">15</span></div>
+      <div class="status-row"><span class="k">current phase</span><span class="v amber">01 / 04</span></div>
+      <div class="status-row"><span class="k">projects shipped</span><span class="v gain">3</span></div>
+    </div>
+
+    <div class="panel span-8">
+      <div class="chart-head">
+        <span class="ticker mono">AAPL</span>
+        <span><span class="price">$326.57</span><span class="change up">+3.56%</span></span>
+      </div>
+      <p class="chart-sub">Manually tracked, Sep 2&ndash;10, 2026. Six trading days, pulled and verified by hand.</p>
+      <svg class="spark" viewBox="0 0 600 210" preserveAspectRatio="xMidYMid meet">
+        <line x1="0" y1="20" x2="600" y2="20" stroke="#262D3A" stroke-width="1"/>
+        <line x1="0" y1="95" x2="600" y2="95" stroke="#262D3A" stroke-width="1"/>
+        <line x1="0" y1="170" x2="600" y2="170" stroke="#262D3A" stroke-width="1"/>
+        <polyline points="50,57.9 150,20" fill="none" stroke="#3FB68B" stroke-width="2.5"/>
+        <polyline points="150,20 250,116" fill="none" stroke="#E5484D" stroke-width="2.5"/>
+        <polyline points="250,116 350,159.7" fill="none" stroke="#E5484D" stroke-width="2.5"/>
+        <polyline points="350,159.7 450,170" fill="none" stroke="#E5484D" stroke-width="2.5"/>
+        <polyline points="450,170 550,39.1" fill="none" stroke="#3FB68B" stroke-width="2.5"/>
+        <circle cx="50" cy="57.9" r="3.5" fill="#7A8494"/>
+        <circle cx="150" cy="20" r="3.5" fill="#3FB68B"/>
+        <circle cx="250" cy="116" r="3.5" fill="#E5484D"/>
+        <circle cx="350" cy="159.7" r="3.5" fill="#E5484D"/>
+        <circle cx="450" cy="170" r="3.5" fill="#E5484D"/>
+        <circle cx="550" cy="39.1" r="3.5" fill="#3FB68B"/>
+        <text x="50" y="45" class="spark-price" text-anchor="middle">324.96</text>
+        <text x="150" y="8" class="spark-price" text-anchor="middle">328.21</text>
+        <text x="250" y="132" class="spark-price" text-anchor="middle">319.97</text>
+        <text x="350" y="176" class="spark-price" text-anchor="middle">316.22</text>
+        <text x="450" y="188" class="spark-price" text-anchor="middle">315.34</text>
+        <text x="550" y="27" class="spark-price" text-anchor="middle">326.57</text>
+        <text x="50" y="200" class="spark-date" text-anchor="middle">09-02</text>
+        <text x="150" y="200" class="spark-date" text-anchor="middle">09-03</text>
+        <text x="250" y="200" class="spark-date" text-anchor="middle">09-04</text>
+        <text x="350" y="200" class="spark-date" text-anchor="middle">09-08</text>
+        <text x="450" y="200" class="spark-date" text-anchor="middle">09-09</text>
+        <text x="550" y="200" class="spark-date" text-anchor="middle">09-10</text>
+      </svg>
+    </div>
+
+    <div class="panel span-4">
+      <p class="panel-label">roadmap.md</p>
+      <div class="phase">
+        <div class="phase-top"><span class="active">01 &middot; months 1&ndash;2</span><span>in progress</span></div>
+        <p class="phase-name">Excel & Stock Market Basics</p>
+        <p class="phase-desc">FreeCodeCamp Excel + Zerodha Varsity Module 1.</p>
+        <div class="bar"><div class="bar-fill" style="width: 35%;"></div></div>
+      </div>
+      <div class="phase">
+        <div class="phase-top"><span>02 &middot; months 3&ndash;4</span></div>
+        <p class="phase-name">SQL Databases</p>
+        <p class="phase-desc">SQLBolt.</p>
+      </div>
+      <div class="phase">
+        <div class="phase-top"><span>03 &middot; months 5&ndash;7</span></div>
+        <p class="phase-name">Python & Statistics</p>
+        <p class="phase-desc">Kaggle Learn + Technical Analysis.</p>
+      </div>
+      <div class="phase">
+        <div class="phase-top"><span>04 &middot; months 8&ndash;10</span></div>
+        <p class="phase-name">ML & Portfolio Projects</p>
+        <p class="phase-desc">Applied models, job-ready portfolio.</p>
+      </div>
+    </div>
+  </div>
+
+  <section id="journal">
+    <div class="grid">
+      <div class="panel span-12">
+        <p class="panel-label">journal.log</p>
+
+        <div class="log-entry">
+          <div class="log-head"><span class="log-id">day 001</span><span class="log-tag mono">excel / stock-market-basics</span></div>
+          <h3>Starting Phase 1: formulas, references, and what a stock market actually is</h3>
+          <p>No Python, no charts, day one was Excel. Worked through the FreeCodeCamp Payroll project, watched it once, then rebuilt the whole thing from a blank file. A formula recalculates, a typed number never does, and that single distinction is the entire philosophy of working with data.</p>
+          <p>Alongside Excel, started Zerodha Varsity Module 1: primary vs. secondary markets, what a stock exchange and a regulator are, what an index and a ticker symbol mean.</p>
+          <div class="note-block"><strong>Built:</strong> a manual AAPL price tracker with an auto-calculating daily percentage change formula.</div>
+        </div>
+
+        <div class="log-entry">
+          <div class="log-head"><span class="log-id">day 002</span><span class="log-tag mono">excel / google-sheets / payroll</span></div>
+          <h3>Rebuilding Payroll my own way, then hitting a licensing wall</h3>
+          <p>Restructured the Payroll sheet day by day across the month instead of a single weekly rate, compiling a running pay-to-date total per employee with conditional formatting for attendance status.</p>
+          <p>Then Excel blocked the save without a paid membership. Rebuilt the entire project in Google Sheets instead, which felt easier the second time, partly because the logic was already solved once.</p>
+          <div class="note-block"><strong>Lesson:</strong> no Excel license doesn't mean stuck. Google Sheets is free and everything translates directly.</div>
+        </div>
+
+        <div class="log-entry">
+          <div class="log-head"><span class="log-id">days 003&ndash;005</span><span class="log-tag mono">gradebook / fundamental-analysis</span></div>
+          <h3>A missed morning, a real fight with charts, and my first fundamental analysis concepts</h3>
+          <p>Day 3 was lost to a family health emergency, included here anyway since the ledger should be honest, not just productive. Day 4 built the Gradebook project: column charts, conditional formatting, and a genuine struggle figuring out chart data ranges in Sheets, solved through trial, error, and a lot of Ctrl+Z.</p>
+          <h4>New concepts, day 5</h4>
+          <ul>
+            <li><strong>Standalone vs. consolidated</strong> financial statements.</li>
+            <li><strong>Price-to-Book ratio</strong>, and why it matters for asset-heavy industries but not for software or media companies.</li>
+            <li><strong>Margin vs. markup</strong>, worked through a ₹10 to ₹15 pencil example: margin measured against selling price, markup against cost price.</li>
+          </ul>
+          <div class="note-block"><strong>Also shipped:</strong> the Decision Factors project, built as a personal "Career Decision Maker" sheet, no real difficulty this time.</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="grid">
+      <div class="panel span-12">
+        <p class="panel-label">projects/</p>
+        <div class="proj-grid">
+
+          <div class="proj-card">
+            <h4>Payroll Tracker</h4>
+            <div class="proj-meta">GOOGLE SHEETS &middot; SEP 2026</div>
+            <p class="desc">Day-by-day payroll for a 10-person team with a running pay-to-date formula and attendance-status conditional formatting.</p>
+            <div class="proj-stats">
+              <div class="stat"><span class="n">10</span><span class="l">employees</span></div>
+              <div class="stat"><span class="n">&#8377;12,837.50</span><span class="l">total payroll</span></div>
+            </div>
+            <a class="dl" href="assets/payroll-practice.pdf">download sheet (pdf)</a>
+          </div>
+
+          <div class="proj-card">
+            <h4>Gradebook D3</h4>
+            <div class="proj-meta">GOOGLE SHEETS &middot; SEP 2026</div>
+            <p class="desc">Weighted scoring across four employee assessments, converting raw scores into pass/fail flags.</p>
+            <div class="proj-stats">
+              <div class="stat"><span class="n">17</span><span class="l">assessed</span></div>
+              <div class="stat"><span class="n">6</span><span class="l">flagged</span></div>
+            </div>
+            <a class="dl" href="assets/gradebook-d3.pdf">download sheet (pdf)</a>
+          </div>
+
+          <div class="proj-card">
+            <h4>AAPL Tracker</h4>
+            <div class="proj-meta">GOOGLE SHEETS &middot; SEP 2026</div>
+            <p class="desc">Manually sourced OHLCV data, cross-checked against real market reporting. Auto-calculating daily change with a news note per session.</p>
+            <table class="mini-table">
+              <thead><tr><th>Date</th><th>Close</th><th>Chg</th></tr></thead>
+              <tbody>
+                <tr><td>09-09</td><td>315.34</td><td class="down">-0.28%</td></tr>
+                <tr><td>09-10</td><td>326.57</td><td class="up">+3.56%</td></tr>
+              </tbody>
+            </table>
+            <a class="dl" href="assets/aapl-tracker.pdf">download sheet (pdf)</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="notes">
+    <div class="grid">
+      <div class="panel span-12">
+        <p class="panel-label">notes/hul-fundamental-analysis.md</p>
+        <div class="notes-layout">
+          <img src="assets/hul-fundamental-analysis-notes.jpeg" alt="Handwritten notebook page on fundamental analysis of Hindustan Unilever Ltd, covering market cap and P/E ratio">
+          <div class="notes-copy">
+            <h4>Market Cap</h4>
+            <p>HUL's market capitalization: &#8377;4.66 lakh crore.</p>
+            <div class="formula-line">Market Cap = No. of Shares &times; Share Price</div>
+
+            <h4>P/E Ratio</h4>
+            <p>EPS for HUL: &#8377;46.17. Share price divided by EPS gives the P/E ratio, a profit-to-earnings multiple.</p>
+            <div class="formula-line">P/E = Share Price &divide; EPS</div>
+
+            <h4>Reading it against profit growth</h4>
+            <table class="growth">
+              <tr><td>1 year</td><td>44.94%</td></tr>
+              <tr><td>3 year</td><td>15.69%</td></tr>
+              <tr><td>5 year</td><td>14.17%</td></tr>
+            </table>
+            <p style="margin-top:12px;"><strong>Read:</strong> P/E sits below profit growth, generally a good sign, suggesting HUL may be reasonably priced relative to how fast profits are growing.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <div class="wrap">
+    <span>updated as the work happens, 15 hours a week</span>
+    <span>last commit: day 005</span>
+  </div>
+</footer>
+
+</body>
+</html>
